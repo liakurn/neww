@@ -1,0 +1,67 @@
+
+
+/* .title-section {
+  background-image: url('11.jpg');
+  background-size: cover;
+  color: black;
+} */
+
+.title-section {
+	
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  
+}
+.menu-item {
+  border: 1px solid #ccc;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  width: 30%; 
+  display: inline-block;
+  margin-top: 20px;
+  
+}
+.background-image {
+	text-align: center;
+}
+.gallery {
+	text-align: center;
+	padding-top: 100px;
+}
+
+.menu-item img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+.body {
+	text-align: center;
+}
+
+/* Интерактив для карточек товаров */
+.menu-item.selected {
+  background-color: #F4F4F4;
+}
+.title-block h1 {
+  text-align: center;
+}
+.h2 {
+	text-align: center;
+}
+button {
+  display: block;
+  margin: 0 auto;
+}
+
+footer {
+  padding-top: 100px;
+  text-align: center;
+  background-color: #000;
+  color: #fff;
+  padding: 20px;
+}
